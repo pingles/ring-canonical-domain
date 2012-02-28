@@ -25,7 +25,7 @@ Then, wrap your app as follows:
              (wrap-canonical-redirect matcher (redirect-host "www.example.com")))
 
 (run-jetty app {:port 8080})
-```clojure
+```
 
 ## License
 
